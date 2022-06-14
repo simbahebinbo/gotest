@@ -1,12 +1,12 @@
 package api
 
 import (
+	"app2/model"
+	"app2/testutils"
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/jarcoal/httpmock"
-	"github.com/lpxxn/gotest/app2_thirdlib/model"
-	"github.com/lpxxn/gotest/app2_thirdlib/testutils"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/url"
@@ -22,7 +22,7 @@ func TestNewUserInfo(t *testing.T) {
 
 	body := url.Values{}
 	body.Set("say", "hello world")
-	rr, err := testutils.PostFormRequst(path + "?name=lp", router, body)
+	rr, err := testutils.PostFormRequst(path+"?name=lp", router, body)
 	a.Nil(err)
 
 	user := &model.UserInfo{}

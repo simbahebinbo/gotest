@@ -1,11 +1,11 @@
 package api
 
 import (
+	"app2/model"
+	"app2/utils"
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/lpxxn/gotest/app2_thirdlib/model"
-	"github.com/lpxxn/gotest/app2_thirdlib/utils"
 	"io/ioutil"
 	"net/http"
 )

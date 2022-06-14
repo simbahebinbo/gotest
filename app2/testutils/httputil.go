@@ -1,9 +1,9 @@
 package testutils
 
 import (
+	"app2/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/jarcoal/httpmock"
-	"github.com/lpxxn/gotest/app2_thirdlib/utils"
 	"io"
 	"net/http"
 	"net/http/httptest"

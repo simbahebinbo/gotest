@@ -1,1 +1,1 @@
-package app2_thirdlib
+package app2

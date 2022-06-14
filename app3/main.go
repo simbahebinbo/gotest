@@ -1,1 +1,1 @@
-package app3_ginkgo
+package app3

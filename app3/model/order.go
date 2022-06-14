@@ -1,6 +1,6 @@
 package model
 
-import "github.com/lpxxn/gotest/app3_ginkgo/utils"
+import "app3/utils"
 
 type OrderInfo struct {
 	Id         int
